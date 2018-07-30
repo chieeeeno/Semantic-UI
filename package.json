@@ -87,6 +87,7 @@
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.24.6",
     "github": "*",
     "gulp-concat-filenames": "*",
     "gulp-debug": "*",
