@@ -2044,6 +2044,48 @@ Floated Menu / Item
          Theme Overrides
 *******************************/
 
+.ui.secondary.menu .dropdown.item {
+  background: #9E9E9E;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 20px 5px 5px;
+  border-radius: 20px;
+  min-width: 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.ui.secondary.menu .dropdown.item.red {
+  background: #F44336;
+}
+.ui.secondary.menu .dropdown.item.green {
+  background: #8BC34A;
+}
+.ui.secondary.menu .dropdown.item:hover {
+  background: #cccccc;
+  color: #fff;
+}
+.ui.secondary.menu .dropdown.item > i.dropdown.icon {
+  position: absolute;
+  margin: 0;
+  float: none;
+  padding: 0;
+  right: 10px;
+}
+/*
+.ui.secondary.menu .ui.dropdown .item.active{
+  background-color:#ff0000;
+}
+
+.ui.secondary.menu .dropdown.item:hover,
+.ui.secondary.menu .link.item:hover,
+.ui.secondary.menu a.item:hover {
+  background: #cccccc;
+  color:#fff;
+}
+*/
 
 
 /*******************************
